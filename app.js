@@ -2,6 +2,7 @@ const express = require("express");
 const session = require("express-session");
 const { router } = require("./rutas");
 const { hash } = require("./crypto");
+const axios = require("axios");
 
 const app = express();
 const PORT = 4008;
